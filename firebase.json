@@ -1,0 +1,15 @@
+{
+  "hosting": [
+    {
+      "target": "proposal",
+      "public": "apps/proposal/dist",
+      "ignore": ["**/.*"],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
